@@ -80,7 +80,7 @@ void* studentActivities(void* arg);
 int main(int argc, char** argv) {
     if (argc != 2 || atoi(argv[1]) < 0) {
         fprintf(stderr, "ERROR: Command-line argument requires one positive integer to represent the number of total students.\n"
-                        "Example: ./a.out 10\n");
+                        "Example: gcc -o students_and_ta students_and_ta.c ; ./students_and_ta 10\n");
         return 1;
     }
 

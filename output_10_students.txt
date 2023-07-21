@@ -1,0 +1,63 @@
+PS C:\Users\trann\Downloads\OS_A3> javac A3.java ; java A3 10
+================== Sleeping TA Simulation ==================
+
+Total number of students who require help: 10
+
+The TA must help all 10 students.
+
+Each student will attempt to get the TA's help or sit in the waiting area until it is their turn to be helped by the TA.   
+Once a student receives help from the TA, the student will leave and never come back.
+
+If a student arrives and sees that there are no seats left in the waiting area, the student will leave and come back later.
+Each time the student comes and sees that the waiting area is full, the student will leave for a longer period of time.    
+
+==================    Simulation START    ==================
+
+The TA is in his/her office
+TA is sleeping...
+TA is woken up by student 1
+Student 4 sits in waiting area      
+Student 1 now receiving help from TA
+Student 6 sits in waiting area      
+Student 2 sits in waiting area      
+Student 5 leaves as there are no seats left - Student will return later (attempt 1) 
+Student 3 leaves as there are no seats left - Student will return later (attempt 1) 
+Student 7 leaves as there are no seats left - Student will return later (attempt 1) 
+Student 8 leaves as there are no seats left - Student will return later (attempt 1) 
+Student 9 leaves as there are no seats left - Student will return later (attempt 1) 
+Student 10 leaves as there are no seats left - Student will return later (attempt 1)
+Student 1 DONE receiving help from TA
+Student 4 now receiving help from TA
+Student 5 sits in waiting area
+Student 7 leaves as there are no seats left - Student will return later (attempt 2) 
+Student 8 leaves as there are no seats left - Student will return later (attempt 2) 
+Student 3 leaves as there are no seats left - Student will return later (attempt 2) 
+Student 9 leaves as there are no seats left - Student will return later (attempt 2) 
+Student 10 leaves as there are no seats left - Student will return later (attempt 2)
+Student 4 DONE receiving help from TA
+Student 6 now receiving help from TA
+Student 6 DONE receiving help from TA
+Student 2 now receiving help from TA
+Student 2 DONE receiving help from TA
+Student 5 now receiving help from TA
+Student 3 sits in waiting area
+Student 8 sits in waiting area
+Student 10 sits in waiting area
+Student 7 leaves as there are no seats left - Student will return later (attempt 3)
+Student 9 leaves as there are no seats left - Student will return later (attempt 3)
+Student 5 DONE receiving help from TA
+Student 3 now receiving help from TA
+Student 3 DONE receiving help from TA
+Student 8 now receiving help from TA
+Student 8 DONE receiving help from TA
+Student 10 now receiving help from TA
+Student 10 DONE receiving help from TA
+TA is sleeping...
+TA is woken up by student 7
+Student 7 now receiving help from TA
+Student 9 sits in waiting area
+Student 7 DONE receiving help from TA
+Student 9 now receiving help from TA
+Student 9 DONE receiving help from TA
+The TA has helped all of the students. The TA will now leave the office and go home.
+==================     Simulation END     ==================

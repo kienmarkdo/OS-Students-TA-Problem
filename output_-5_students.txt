@@ -1,0 +1,5 @@
+PS C:\Users\trann\Downloads\OS_A3> javac A3.java ; java A3 -5
+Exception in thread "main" java.lang.IllegalArgumentException: ERROR: Command-line argument requires one positive integer to represent the number of total students.
+Example: javac A3.java && java A3 10
+        at A3.main(A3.java:84)
+PS C:\Users\trann\Downloads\OS_A3> 
